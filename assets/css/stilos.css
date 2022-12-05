@@ -1,0 +1,331 @@
+body {
+  margin: auto;
+  background-color: rgb(12, 2, 105);
+}
+.menu {
+  width: 100%;
+  height: 130px;
+  background-color: rgb(12, 2, 105);
+}
+.menu h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+.menu nav {
+  align-items: center;
+  max-width: 90%;
+  padding: 5px 8px 8px 8px;
+  margin-left: 620px;
+}
+.menu a {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: rgb(21, 255, 0);
+  padding: 8px 8px 8px 8px;
+  margin: -40px 0px 50px 50px;
+  border-radius: 8px;
+}
+.menu a:hover {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: aqua;
+  padding: 8px 8px 8px 8px;
+  margin: -40px 0px 50px 50px;
+  border-radius: 8px;
+}
+
+.eu {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(60, 255, 0);
+}
+.eu h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 48px;
+  padding-top: 30px;
+}
+.eu h2 {
+  color: rgb(1, 1, 46);
+  font-size: 35px;
+  margin-left: 400px;
+  margin-top: 50px text-transform uppercase;
+}
+.eu p {
+  text-align: justify;
+  width: 450px;
+  font-size: 25px;
+  margin-left: 280px;
+}
+.eu img {
+  width: 400px;
+  height: 340px;
+  float: right;
+  margin: -180px 400px 300px -250px;
+  border-radius: 5%;
+  border-color: rgb(57, 59, 57);
+}
+.historia {
+  width: 100%;
+  height: 550px;
+  margin-bottom: 40px;
+}
+.historia h2 {
+  color: #fff;
+  font-size: 35px;
+  margin-left: 860px;
+  margin-top: 50px;
+}
+.historia p {
+  max-width: 600px;
+  color: #fff;
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 670px;
+}
+.caixa-img {
+  margin-left: 370px;
+}
+.caixa-img2 {
+  padding-top: 5px;
+  margin-left: 160px;
+}
+.historia img {
+  width: 300px;
+  height: 240px;
+  border-radius: 30px;
+  border: solid 4px #fff;
+  margin: 30px 40px 0 40px;
+}
+.experiencia {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(60, 255, 0);
+}
+
+.experiencia h2 {
+  color: #fff;
+  font-size: 35px;
+  margin-left: 820px;
+  padding-top: 50px;
+}
+.experiencia p {
+  max-width: 800px;
+  color: #fff;
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 570px;
+}
+.experiencia img {
+  width: 300px;
+  height: 240px;
+  border-radius: 30px;
+  border: solid 4px #fff;
+  margin: 30px 40px 0 40px;
+}
+
+.gostos {
+  width: 100%;
+  height: 550px;
+  margin-bottom: 40px;
+}
+.gostos h2 {
+  color: #fff;
+  font-size: 35px;
+  margin-left: 860px;
+  margin-top: 50px;
+}
+.gostos p {
+  max-width: 600px;
+  color: #fff;
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 670px;
+}
+
+.gostos img {
+  width: 300px;
+  height: 240px;
+  border-radius: 30px;
+  border: solid 4px #fff;
+  margin: 30px 40px 0 40px;
+}
+
+.novas {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(60, 255, 0);
+}
+.novas h2 {
+  color: #fff;
+  font-size: 35px;
+  margin-left: 530px;
+  padding-top: 30px;
+}
+
+.novas p {
+  text-align: justify;
+  width: 500px;
+  font-size: 20px;
+  margin-left: 450px;
+}
+
+.novas img {
+  float: right;
+  border-radius: 30px;
+  border: solid 4px #fff;
+  margin: -360px 480px 0 10px;
+}
+
+.objetivos {
+  width: 100%;
+  height: 500px;
+  color: #fff;
+  background-image: url("../img/bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: rgb(72, 77, 71);
+}
+.objetivos h2 {
+  color: #fff;
+  font-size: 35px;
+  margin-left: 380px;
+  padding-top: 10px;
+}
+
+.objetivos p {
+  text-align: justify;
+  width: 500px;
+  font-size: 20px;
+  margin-left: 250px;
+}
+.objetivos img {
+  width: 220px;
+  height: 180px;
+  border-radius: 50%;
+  border: solid 4px #fff;
+  margin: 5px 40px 0 40px;
+}
+
+.bloque-api-left {
+  width: 440px;
+  height: 450px;
+  margin: 60px 10px 50px 640px;
+  border-radius: 40px;
+  padding: 20px;
+
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.bloque-api-left img {
+  width: 250px;
+  height: 90px;
+  border-radius: 30px;
+  margin: 20px 50px 20px 80px;
+}
+
+.bloque-api-left input {
+  float: left;
+  width: 180px;
+  height: 15px;
+  margin: 15px 10px 16px 115px;
+  border-radius: 6px;
+  border-style: solid;
+}
+.btn-api {
+  float: right;
+  color: #007953;
+  background-color: #fff;
+  border: solid 3px rgb(60, 255, 0);
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 6px;
+  margin-right: 60px;
+}
+.btn-api:hover {
+  color: #fff;
+  background-color: #007953;
+  border-color: #007953;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 6px;
+  margin-right: 60px;
+}
+.contato {
+  width: 100%;
+  height: 550px;
+  background-color: rgb(60, 255, 0);
+  padding-top: 60px;
+}
+.bloque-cn {
+  width: 550px;
+  height: 450px;
+  background-color: rgb(12, 2, 105);
+  border-radius: 35px;
+  margin-left: 590px;
+  margin-bottom: 30px;
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.bloque-cn h2 {
+  color: #fff;
+  font-size: 35px;
+  margin-left: 170px;
+  padding-top: 30px;
+}
+.formulario input {
+  float: left;
+  width: 250px;
+  height: 15px;
+  margin: 15px 15px 12px 120px;
+  border-radius: 80px;
+  border-style: solid;
+}
+
+.formulario label {
+  color: #134f5c;
+  float: right;
+  margin: 16px 130px 0px 0px;
+}
+
+.formulario textarea {
+  color: black;
+  margin: 15px 15px 0px 120px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.formulario button {
+  position: relative;
+  color: #003c71;
+  text-align: center;
+  background-color: #fff;
+  border-color: #003c71;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  margin: 20px 10px 20px 250px;
+}
+
+.formulario button:hover {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(60, 255, 0);
+  border-color: #003c71;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  margin: 20px 10px 20px 250px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-left: -200px;
+}
